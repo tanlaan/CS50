@@ -1,0 +1,12 @@
+1.  stdint.h is a header file which gives convenient definitions for type sizes based on their name. Very useful for malloc.
+2.  the point of using those is to allow for an easy definition for the size of a specific type. You can easily use it to malloc an allotment of memory that is guaranteed to be the correct size for your corresponding size.
+3.  BYTE is equal to 8 bits unsigned, DWORD is 32 bits unsigned, LONG is 32 bits signed, and WORD is of size 16 bits unsigned.
+4.  The first two bytes of memory for a bitmap must be 'BM'.
+5.  bfsize is the size in bytes of the entire file inclusive. bisize however is just the size of the bitmap info header struct size.
+6.  If biheight is negative that means the image is top down, and begins at the top left corner.
+7.  biBitCount.
+8.  If the "infile" doesn't actually exist.
+9.  The reason is we are only trying to access one "chunk" of the total file stream. So we pull out a chunk of the file of our set size and only that.
+10. In this case, RGB triple should return 3*8 bits (24) multiplied by 3 (72), modulo 4 (0), modulo 4 (4), 4 - 4 (0). So padding should be 0.
+11. fseek allows one to move where the current point in the stream we are pointing to by an offset.
+12. SEEK_CUR is a shortcut to get the current poing in the stream we are at.

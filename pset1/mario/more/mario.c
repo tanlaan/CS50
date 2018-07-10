@@ -18,7 +18,7 @@ int main(void)
         else
         {
             print_pyramid(height);
-            break;
+            break; // Exit while loops
         }
     }
     return 0;
@@ -39,14 +39,14 @@ void print_pyramid(int h)
         print_multi_char('#', hashes);
         putchar('\n');
 
-        spaces--;
-        hashes++;
+        spaces--;   // Decrease spaces each iteration
+        hashes++;   // Increase hashes each iteration
     }
 }
 
 void print_multi_char(char c, int n)
 {
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < n; i++) // print a single char n times
     {
         putchar(c);
     }

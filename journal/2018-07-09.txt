@@ -1,0 +1,9 @@
+---
+title: Coming to the same solution through totally different means
+---
+
+I decided to try to complete these challenges without actually looking back at the work I had done until completing the full set and
+verifying that they were correct. It turns out I had used a much better method for completing my pset1 credit challenge last year.
+I started with making a skeleton of functions to make my main() nice and simple. I think I will continue that from now on. It made
+for a nice and tidy program that I would have to go into more depth as to whether or not it was a "better" answer (faster/fewer
+cycle times).

@@ -1,0 +1,5 @@
+---
+title: Going through the motions
+---
+Going through this problem set was pretty interesting. I didn't have much knowledge of music theory or sheet music, so I found that portion a bit harder than the code portion.
+Breaking things down was pretty fun, getting the easy stuff out of the way to bang my head against the frequency function. It felt really good to break it down in to smaller chunks and finally get a solution that worked and was decently simple to read through.
